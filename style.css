@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, rgb(47, 165, 201), #324a66);
+  color: black;
+  text-align: center;
+}
+
+header {
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-style:italic;
+}
+img{
+    height: 500px;
+    width:1200px;
+    padding: 0%;
+}
+h1{
+    color:black;
+    font-weight: bold;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 30px;
+
+}
+
+.menu-item {
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: bolder;
+  display:inline-flex;
+  color: #8d0707;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item:hover{
+  transform: translateY(-5px);
+  opacity: 0.9;
+}
+.yellow { background: rgb(9, 104, 128); color:rgb(2, 45, 58); }
+.blue { background: rgb(9, 104, 128); color: rgb(2, 45, 58); }
+.red { background: rgb(9, 104, 128); color: rgb(2, 45, 58); }
+.orange { background: rgb(9, 104, 128n); color: rgb(2, 45, 58); }
+.green { background: rgb(9, 104, 128); color: rgb(2, 45, 58); }
+.pink { background: rgb(9, 104, 128); color:rgb(2, 45, 58); }
+.purple { background: rgb(9, 104, 128); color:rgb(2, 45, 58); }
+.brown { background: rgb(9, 104, 128); color:rgb(2, 45, 58); }
+
+.reservation {
+  margin: 50px 20px;
+}
+
+.reservation h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+form input, form button {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(175, 11, 216);
+  font-size: 1rem;
+  color:rgb(186, 190, 192);
+}
+
+form button {
+  background: rgb(15, 62, 122);
+  color: rgb(139, 150, 155);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+form button:hover {
+  background: rgb(22, 84, 119);
+  color: rgb(117, 161, 179);
+}
+
+footer {
+  margin: 50px 0 20px;
+  font-size: 0.9rem;
+  color:black;
+}
